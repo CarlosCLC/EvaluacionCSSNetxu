@@ -54,33 +54,73 @@ text-shadow: 0 2px #02010a ;
 }
 
 .img1{
-    width: 80%;
+    width: 50%;
     padding: 2%;
     display: block; 
     margin: auto;
 }
 .cuerpob { 
- 
     width: 100%;
-    height: 100%;
-    background-color: #d5c75f;
-    display: flex
-    
+    height: auto;
+    display: flex;
+    background-color: #d5c75f
+   
  }
 .img2{
-   width: 45%;
-   height: 100%;
-   text-align: center ;
+   background-color: #d5c75f;
+   text-align: center;
    display: block;
    margin: auto;
-  
-     
+
 }
 .img2 img {
-    width: 96%;
+    width: 80%;
     height: 100%;
-    padding: 2%;
+    margin: 2%;
+    border: solid 1px
+   
 }
+figcaption{
+    margin-bottom: 2%
+}
+
+#clo2:hover{
+    transform: rotate(10deg);
+    border: solid 2px;
+    transition-duration: 1s;
+    box-shadow: 2px 2px 2px #82c3a6;
+
+}
+#clo3:hover{
+transform: translate(20px ,-5px);
+transition-duration: 1s;
+box-shadow: 2px 2px 2px #82c3a6;
+}
+#clo3:hover{
+
+}
+.piepagina{
+    width: 100%;
+    height:300px;
+    border-radius: 0 0 10px 10px;
+    background-color: #c6d5c5;
+   display: flex
+
+}
+
+.piepagina div{
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+   
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 30px;
+
+
 
 }
 
