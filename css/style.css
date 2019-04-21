@@ -3,12 +3,22 @@
   padding: 0;
   margin: 0;
     }
+
 body{
-    padding: 0;
-    margin: 0% 8% 0% 8%;
-    margin-top: 0;
-    padding: 0;
+    background-color: #02010a
+
 }
+
+.contenido{
+    max-width: 900px;
+    margin: 0% auto;
+    
+          
+}
+img{
+    box-shadow: 2px 2px 2px #02010a
+}
+
 .contenedor1{
     margin: 0;
     padding: 0;
@@ -18,7 +28,7 @@ body{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;  
     display: -webkit-flex;
-    
+
 }
     .c1 {
         width: 50%;
@@ -55,9 +65,8 @@ text-shadow: 0 2px #02010a ;
 
 .img1{
     width: 50%;
-    padding: 2%;
     display: block; 
-    margin: auto;
+    margin: 2% auto;
 }
 .cuerpob { 
     width: 100%;
@@ -113,11 +122,10 @@ box-shadow: 2px 2px 2px #82c3a6;
     margin: 10px;
     text-align: center;
     line-height: 75px;
-   
+    align-content: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-
     font-size: 30px;
 
 
